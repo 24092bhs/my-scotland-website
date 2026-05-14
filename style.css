@@ -28,8 +28,29 @@
     margin-top: 50px;
 }
 
+.three-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* can also use repeat(3, 1fr) */
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card {
+    background-color: rgb(20, 33, 92);
+}
+
+.card-text {
+    text-align: center;
+    color: whitesmoke;
+}
+
 img {
     width: 100%;
+    border-radius: 5px;
 }
 
 .info {
